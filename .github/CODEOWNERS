@@ -1,0 +1,37 @@
+# Default owners for everything
+* @org/engineering-leads
+
+# Frontend
+/src/components/ @org/frontend-team
+/src/styles/ @org/frontend-team
+*. tsx @org/frontend-team
+*.css @org/frontend-team
+
+# Backend
+/src/api/ @org/backend-team
+/src/services/ @org/backend-team
+/src/repositories/ @org/backend-team
+
+# Infrastructure
+/infrastructure/ @org/devops-team
+/docker/ @org/devops-team
+/. github/workflows/ @org/devops-team
+Dockerfile @org/devops-team
+
+# Data
+/dbt/ @org/data-team
+/airflow/ @org/data-team
+/spark/ @org/data-team
+
+# Documentation
+/docs/ @org/tech-writers
+*. md @org/tech-writers
+
+# Security-sensitive files
+/src/auth/ @org/security-team
+/src/security/ @org/security-team
+. env.example @org/security-team
+
+# Configuration
+*. config.* @org/engineering-leads
+package.json @org/engineering-leads
